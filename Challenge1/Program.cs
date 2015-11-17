@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CryptoUtility;
 
-namespace Challenge1
+namespace Set1
 {
     class Program
     {

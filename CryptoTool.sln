@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge1", "Challenge1\Challenge1.csproj", "{3191C59E-5EB1-44DD-8B61-46FF1693AD4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Set1", "Challenge1\Set1.csproj", "{3191C59E-5EB1-44DD-8B61-46FF1693AD4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge1UnitTest", "Challenge1UnitTest\Challenge1UnitTest.csproj", "{3AAFA339-675C-43ED-8EAF-1B2742082575}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Set1UnitTest", "Challenge1UnitTest\Set1UnitTest.csproj", "{3AAFA339-675C-43ED-8EAF-1B2742082575}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoUtility", "CryptoUtility\CryptoUtility.csproj", "{A3535874-7188-4623-A91D-26F3E0E330EB}"
 EndProject
