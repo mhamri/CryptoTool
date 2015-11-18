@@ -17,8 +17,8 @@ namespace CryptoUtility
 
 
             Utility cryptoUtil = new Utility();
-            byte[] firstHexByte = cryptoUtil.StringToHex(firstStringHex);
-            byte[] secondHexByte = cryptoUtil.StringToHex(secondStringHex);
+            byte[] firstHexByte = cryptoUtil.HexToByteArray(firstStringHex);
+            byte[] secondHexByte = cryptoUtil.HexToByteArray(secondStringHex);
             byte[] xored = new byte[firstHexByte.Length];
             for (int i = 0; i < firstHexByte.Length; i++)
             {
@@ -26,5 +26,17 @@ namespace CryptoUtility
             }
             return BitConverter.ToString(xored).Replace("-", "").ToLower();
         }
+
+        public string EncryptOrDecrypt(string text, string key)
+        {
+            var result = new StringBuilder();
+
+            for (int c = 0; c < text.Length; c++)
+                result.Append((char)((uint)text[c] ^ (uint)key[c % key.Length]));
+
+            return result.ToString();
+        }
     }
+
+    
 }
